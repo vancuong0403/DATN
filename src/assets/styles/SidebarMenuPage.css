@@ -1,0 +1,66 @@
+.btn-toggle {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #ccc;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-toggle:hover {
+  background-color: #999;
+}
+
+.SidebarMenuCss {
+  background-color: #fff;
+  text-align: left;
+  position: relative;
+  z-index: 1;
+}
+
+.SidebarMenuUserInfo{
+  height: calc(100vh - 220px);
+  overflow-y: scroll;
+}
+
+.SidebarMenu-Main {
+  display: flex;
+  /* Sử dụng flexbox để căn chỉnh các thành phần */
+}
+
+.sideheader {
+  height: 120px;
+  width: 100%;
+  background-color: #eeeeee;
+  margin-top: 15px;
+  margin-bottom: 35px;
+  margin-left: 5px;
+  margin-right: 5px;
+  cursor: 'pointer';
+}
+
+.sideheader-avatar {
+  margin-left: -15px;
+}
+
+.sideheader:hover {
+  background-color: #c5e4ff;
+  text-decoration: none;
+  box-shadow: 15px 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.Routes {
+  /* CSS cho nội dung bên phải của SidebarMenu */
+  flex: 1;
+  /* Nội dung sẽ chiếm hết phần còn lại của không gian trống */
+}
+
+.active{
+  background-color: #c5e4ff;
+}
+
+.dashboard-header{
+  margin-top: 15px;
+}

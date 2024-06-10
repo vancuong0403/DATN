@@ -1,0 +1,81 @@
+.navbar {
+    background: linear-gradient(#4c6fff, #3366ff) !important;
+    text-align: center !important;
+}
+
+.navbaritem a {
+    font-family: "Arial" !important;
+    font-size: 16px !important;
+    color: white !important;
+    border-radius: 20px 20px 20px 20px !important;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.navbaritem a:hover {
+    color: #333 !important;
+    background: white !important;
+    border-radius: 20px 20px 20px 20px !important;
+}
+
+.nav-link.active{
+	color: white !important;
+    font-weight: 700;
+    background: #0043a9 !important;
+    border-radius: 20px 20px 20px 20px !important;
+}
+
+.ant-image-preview-operations-operation:not(:first-child) {
+    display: none;
+}
+
+.btnloginclass a {
+    font-family: "Arial" !important;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    border-radius: 25px 25px 25px 0px !important;
+    color: white;
+}
+
+.btnloginclass:hover {
+    background: #ff7700 !important;
+    color: white !important;
+}
+
+.col-md-4 button {
+    height: 40px;
+    background: #2dac17 !important;
+    width: 150px;
+    border-radius: 25px 25px 0px 25px;
+    border: none;
+    margin-right: 0 auto;
+    color: white !important;
+}
+
+.logo {
+    margin-left: 5%;
+    max-height: 45px;
+}
+
+.userdropdown img {
+    border-radius: 25px 25px 25px 25px !important;
+    object-fit: cover;
+}
+
+.userdropdown span {
+    margin-left: 10px !important;
+    color: white;
+    font-family: "Arial" !important;
+    font-size: 16px !important;
+    cursor: pointer;
+}
+
+.navbarLinkHover{
+    padding: 5px;
+}
+
+.navbarLinkHover:hover{
+    background-color: #0043a9;
+    border-radius: 25px 25px 25px 25px;
+}

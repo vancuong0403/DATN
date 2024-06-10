@@ -1,0 +1,88 @@
+.signincard {
+    margin-top: 20px;
+    margin-bottom: 28px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: calc(100vh - 264px);
+    min-height: 450px;
+}
+
+.formlogintitle {
+    font-size: calc(10px + 2vmin);
+    font-weight: 700;
+    color: #696969;
+}
+
+.underline {
+    border-bottom: 1px solid currentColor;
+    margin-top: 20px;
+    color: #696969;
+}
+
+.logindecrist {
+    margin: 20px;
+    color: #696969;
+    text-align: left;
+}
+
+.loginformstyle {
+    margin-top: 50px;
+    text-align: left;
+}
+
+.logininputtext {
+    margin-top: 40px;
+}
+
+.forgotpass {
+    color: #00008B;
+    font-weight: 700;
+    font-size: 14px;
+    margin-top: 60px;
+}
+
+.loginbackground {
+    background-image: url(../images/login_background.png), linear-gradient(95deg, rgb(136, 210, 240), #5AA8F2 26.8% 64%);
+    background-size: cover;
+}
+
+.overlay {
+    opacity: 1;
+}
+
+.overlayback {
+    content: "";
+    z-index: 1;
+    margin: 50px;
+}
+
+.textwellcome1 {
+    font-size: calc(22px + 2vmin);
+    font-weight: 700;
+    opacity: 1;
+    z-index: 2;
+    color: white;
+}
+
+.textwellcome2 {
+    font-size: calc(8px + 1.5vmin);
+    font-weight: 700;
+    opacity: 1;
+    z-index: 2;
+    color: white;
+    text-align: left;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.captchaimage {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    border-color: rgb(83, 81, 81);
+    height: 55px;
+    min-width: 150px;
+    min-height: 55px;
+    margin-left: 15px;
+    text-align: center;
+}

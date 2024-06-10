@@ -1,0 +1,17 @@
+.permisstion-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    list-style-type: none;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.permisstion-item:hover {
+    background-color: rgb(89, 179, 253);
+}
+
+.permisstion-selected{
+    background-color: rgb(147, 200, 243);
+}

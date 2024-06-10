@@ -1,0 +1,14 @@
+.shadown-lower {
+  box-shadow: 15px 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card-hovrer:hover {
+  border-color: rgb(85, 114, 241);
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 10px;
+}
+
+.card-pointer:hover {
+  cursor: pointer;
+}

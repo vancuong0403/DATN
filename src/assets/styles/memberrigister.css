@@ -1,0 +1,20 @@
+.recruitform{
+    width: 65% !important;
+    border: white !important;
+    margin-top: 10px;
+}
+
+@media (max-width: 990px){
+    .recruitform{
+        width: 90% !important;
+        border: white !important;
+    }
+}
+
+.contentStyle{
+    height: 700% !important;
+    color: '#fff';
+    line-height: 700% !important;
+    text-align: 'center';
+    background: gainsboro;
+}
